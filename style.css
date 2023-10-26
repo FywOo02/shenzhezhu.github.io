@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #FFFFF0;
 }
 
 html {
@@ -336,7 +337,7 @@ section {
 
 .article-container {
   display: flex;
-  text-align: initial;
+  text-align: justify;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
@@ -351,7 +352,7 @@ article {
 }
 
 article .icon {
-  cursor: default;
+  cursor: initial;
 }
 
 /* PROJECTS SECTION */
